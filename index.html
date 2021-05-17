@@ -33,10 +33,15 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        required
+        name="username"
+        type="email"
+        placeholder="Email or phone number"
+      />
 
-      <input type="password" placeholder="Password" />
+      <input required name="password" type="password" placeholder="Password" />
 
       <input type="submit" value="Log In" />
 
