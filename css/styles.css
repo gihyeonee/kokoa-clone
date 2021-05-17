@@ -1,13 +1,18 @@
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,600;1,700&display=swap");
+
+/* Basic-settings */
 @import "reset.css";
 @import "variable.css";
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 
 body {
   font-family: "KoHo", sans-serif;
+  height: 1000vh;
 }
