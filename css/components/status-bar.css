@@ -1,7 +1,13 @@
 .status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  box-sizing: border-box;
+  /* lecture 6.13 참조.
+  padding이 있더라도 box사이즈를 늘리지 말고, 유지하길 원할 때 사용. */
 }
 
 .status-bar__column {
