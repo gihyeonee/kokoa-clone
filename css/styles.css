@@ -25,7 +25,9 @@
 @import "screens/chat.css";
 
 body {
-  color: #2e363e;
+  /* color: #2e363e; */
+  color: white;
+  background-color: turquoise;
   font-family: "KoHo", sans-serif;
   /* height: 1000vh; */
 }
