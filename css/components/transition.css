@@ -32,6 +32,40 @@
   color: var(--yellow);
 }
 
+/* Index-Screen */
+.welcome-header__title,
+.welcome-header__text,
+#login-form a,
+#login-form :nth-child(3) {
+  transition: var(--transition);
+}
+
+.welcome-header__title:hover,
+.welcome-header__text:hover,
+#login-form a:hover {
+  color: var(--yellow);
+}
+
+#login-form :nth-child(3):hover {
+  color: white;
+}
+
+/* Friends-Screen */
+
+#friends-display-link,
+#friends-display-link i,
+.friends-screen__channel-header span,
+.friends-screen__channel-header i {
+  transition: var(--transition);
+}
+
+#friends-display-link:hover,
+#friends-display-link i:hover,
+.friends-screen__channel-header span:hover,
+.friends-screen__channel-header i:hover {
+  color: var(--yellow);
+}
+
 /* More-Screen */
 
 .more-suggestions__title,
@@ -219,4 +253,44 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+/* Settings-Screen */
+
+.settings__setting-column,
+.setting-column--trans span {
+  transition: var(--transition);
+}
+
+.settings__setting-column:hover,
+.setting-column--trans span:hover {
+  color: var(--yellow);
+}
+
+/* alt-header */
+
+.alt-header__column i,
+.alt-header__column h1,
+.chat__timestamp,
+.message__author,
+.message__bubble,
+.message__time {
+  transition: var(--transition);
+}
+
+.alt-header__column i:hover,
+.alt-header__column h1:hover,
+.chat__timestamp:hover,
+.message__author:hover,
+.message__bubble:hover,
+.message__time:hover {
+  color: var(--yellow);
+}
+
+.bubble--trans {
+  transition: var(--transition);
+}
+
+.bubble--trans:hover {
+  color: white;
 }
