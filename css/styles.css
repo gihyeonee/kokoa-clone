@@ -27,7 +27,8 @@
 body {
   /* color: #2e363e; */
   color: white;
-  background-color: turquoise;
+  /* background-color: turquoise; */
+  background-color: black;
   font-family: "KoHo", sans-serif;
   /* height: 1000vh; */
 }

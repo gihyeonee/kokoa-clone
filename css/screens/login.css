@@ -32,10 +32,12 @@
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
+  padding-left: 20px;
+  border-radius: 5px;
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: black;
 }
 
 #login-form input:focus {
@@ -47,12 +49,12 @@
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+  font-weight: 700;
 }
 
 #login-form a {
   text-align: center;
   text-decoration: none;
   color: inherit;
-  /* parent's color를 상속받음. */
   font-size: 13px;
 }

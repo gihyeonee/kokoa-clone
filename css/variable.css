@@ -1,7 +1,9 @@
 :root {
   --yellow: #fae100;
+  --main-color: white;
+  --sub-color: rgba(255, 255, 255, 0.8);
   --color-halfblack: rgba(0, 0, 0, 0.5);
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --main-border: 1px solid rgba(255, 255, 255, 0.5);
   --transition: color 0.3s ease-in-out;
 }
